@@ -1,0 +1,113 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: 1fr; */
+    gap: 2.5rem;
+    margin: 5rem 5rem 6rem 6rem;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    border: 2px solid #6079e2;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+    color: #e7d5ed;
+}
+
+.portfolio__item h5 {
+    margin: 0.8rem;
+    color: moccasin;
+    padding-bottom: 0.8rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    justify-content: center;
+    /* gap: 1rem; */
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__item-cta .btn {
+    padding: 0.6rem 1.2rem;
+    color: moccasin;
+}
+
+.portfolio__item-icon {
+    margin-left: 2px;
+    margin-top: 8px;
+    font-size: 16px;
+
+}
+
+/*>>__TABLETS------------------Media Queries1----------------*/
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .portfolio__item-cta .btn {
+        padding: 0.6rem 1.2rem;
+        border-radius: 0.4rem;
+        border-color: #655b9d;
+    }
+
+
+
+.portfolio__item-icon {
+    margin-left: 1px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+  }
+
+/*>>__MOBILES------------------Media Queries2----------------*/
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .portfolio__item-cta {
+        display: flex;
+        justify-content: center;
+        /* gap: 1rem; */
+        margin-bottom: 0.6rem;
+    }
+
+    .portfolio__item-cta .btn {
+        padding: 0.3rem 0.8rem;
+        border-radius: 0.4rem;
+        border-color: #655b9d;
+    }
+
+
+.portfolio__item-icon {
+    margin-left: 1px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+}
+
+

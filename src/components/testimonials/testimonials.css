@@ -1,0 +1,59 @@
+.container.testimonails__container {
+  width: 40%;
+  padding-bottom: 4rem;
+}
+
+.client__avatar {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.5rem solid; /*var(--color-primary-variant);*/
+    border-color: rgb(16, 126, 143);
+}
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.client__name {
+    color: powderblue;
+    font-size: 0.9rem;
+}
+
+.client__review {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+    
+    
+
+/*>>__TABLETS------------------Media Queries1----------------*/
+@media screen and (max-width: 1024px) {
+    .container.testimonails__container {
+        width: 60%;
+    }    
+}
+
+/*>>__MOBILES------------------Media Queries2----------------*/
+@media screen and (max-width: 600px) {
+    .container.testimonails__container {
+        width: var(--container-width-sm);
+    }
+    
+    .client__review {
+        width: var(--container-width-sm);
+    }
+}
