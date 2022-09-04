@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 // import axios from 'axios';
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import IMG1 from '../../assets/portfolio1.jpg'
 // import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
@@ -86,7 +86,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <h5>{description}</h5>
             <div className="portfolio__item-cta">
-              <a href={github} className='btn' target='_blank'>LIVE DEMO <BsEyeFill className='portfolio__item-icon'/></a>
+              <a href={github} className='btn' target='_blank' rel="noreferrer">LIVE DEMO <BsEyeFill className='portfolio__item-icon'/></a>
               {/* <a href="" className='btn btn-primary' target='_blank'>GoLive</a> */}
             </div>
             </article>
