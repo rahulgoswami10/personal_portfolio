@@ -121,6 +121,10 @@ header h5 {
         display: none;
     }
 
+    .me {
+        border: 1.6px solid tomato;
+    }
+
 }
 
 

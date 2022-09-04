@@ -39,25 +39,25 @@ const Contact = () => {
             <HiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>therahulgoswami99@gmail.com</h5>
-            <a href="mailto:therahulgoswami99@gmail.com" target="_blank">Leave a message</a>
+            <a href="mailto:therahulgoswami99@gmail.com" target="_blank" rel="noreferrer">Leave a message</a>
           </article>
           <article className="contact__option" data-aos="zoom-in-up">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Rahul Goswami</h5>
-            <a href="https://www.facebook.com/profile.php?id=100027510530355" target="_blank">Let's Talk</a>
+            <a href="https://www.facebook.com/profile.php?id=100027510530355" target="_blank" rel="noreferrer">Let's Talk</a>
           </article>
           <article className="contact__option" data-aos="zoom-in-up">
             <SiWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>Rahul</h5>
-            <a href="https://web.whatsapp.com/send?phone=+919679441193" target="_blank">Let's Talk</a>
+            <a href="https://web.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer">Let's Talk</a>
           </article>
           <article className="contact__option" data-aos="zoom-in-up">
             <TbBrandTelegram className='contact__option-icon' />
             <h4>Telegram</h4>
             <h5>Rahul</h5>
-            <a href="https://web.telegram.org/k/" target="_blank">Let's Talk</a>
+            <a href="https://web.telegram.org/k/" target="blank" rel="noreferrer">Let's Talk</a>
           </article>
         </div>
         {/*_______________END OF CONTACT OPTIONS_______________*/}
