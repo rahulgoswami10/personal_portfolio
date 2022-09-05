@@ -8,47 +8,62 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-// import {useState, useEffect} from 'react'
-// import BarLoader from 'react-spinners/BarLoader'
+import {useState, useEffect} from 'react'
+import BarLoader from 'react-spinners/BarLoader'
+import './app.css'
 // import axios from 'axios';
 
 // import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers'
 
-// const override: useEffect = {
+const override: useEffect = {
   // display: "flex",
-  // margin: "30rem auto",
-  // padding: "2rem",
-  // width: "65%",
-  // height: "100vh",
-  // borderColor: "red",
-// };
+  margin: "30rem auto",
+  padding: "1rem",
+  width: "85%",
+  height: "2",
+  // height: "rem",
+  borderColor: "red",
+};
 
 const App = () => {
-  // const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false)
   // const [apidata, setData] = useState([]);
 
-  // useEffect(()=> {
-      // setLoading(true)
+  useEffect(()=> {
+      setLoading(true)
       // setData(getData);
-      // setTimeout(()=> {
+      setTimeout(()=> {
         // if(apidata)
-      // setLoading(false);
+        setLoading(false);
   
-    // },2000)
-  // },[])
+    }, 4000)
+  },[])
 
   return ( 
+
+    loading ?   
+      <BarLoader 
+        color={"#08edff"} 
+        loading={loading} 
+        cssOverride={override} 
+        size={300} 
+      />
+
+      :
+
             
       <>
-          <Header />
-          <Nav />
-          <About />
-          <Experience />
-          <Services />
-          <Portfolio />
-          <Testimonials />
-          <Contact />
-          <Footer />
+
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Footer />
+
       </>  
   )
 
