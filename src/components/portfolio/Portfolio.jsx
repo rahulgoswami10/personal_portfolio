@@ -2,16 +2,17 @@ import React from 'react'
 import './portfolio.css'
 // import axios from 'axios';
 // import { useState, useEffect } from "react";
-import IMG1 from '../../assets/portfolio1.jpg'
+// import IMG1 from '../../assets/portfolio1.jpg'
 // import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+// import IMG3 from '../../assets/portfolio3.jpg'
 // import IMG4 from '../../assets/portfolio4.jpg'
 // import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
-// import IMG9 from '../../assets/portfolio9.jpg'
+import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
+import IMG11 from '../../assets/portfolio11.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,10 +25,10 @@ AOS.init({
 const data = [
   {
     id: 1, //Unique_Key
-    image: IMG8,
-    title: 'Personal Portfolio with Blog',
+    image: IMG11,
+    title: 'Goswami Coaching Centre',
     description: 'HTML CSS JS',
-    github: 'https://github.com'
+    github: 'https://goswamicoachingcentre.netlify.app'
     // demo:
   },
   
@@ -42,8 +43,8 @@ const data = [
 
   {
     id: 3,
-    image: IMG1,
-    title: 'Crypto Currency Dashboard',
+    image: IMG8,
+    title: 'Personal Portfolio With Blog',
     description: 'HTML TAILWIND JS',
     github: 'https://github.com'
     // demo:
@@ -51,7 +52,7 @@ const data = [
 
   {
     id: 4,
-    image: IMG3,
+    image: IMG9,
     title: 'Responsive Admin DashBoard',
     description: 'HTML CSS JS',
     github: 'https://github.com'

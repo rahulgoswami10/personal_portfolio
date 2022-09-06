@@ -16,12 +16,12 @@ AOS.init({
 const Footer = () => {
   return (
     <footer>
-      <a href="#about" className='footer__logo'  data-aos="fade-left"><span className="danger">RA</span><span className="white">H</span><span className="green">UL</span></a>
+      <a href="#" className='footer__logo'  data-aos="fade-left"><span className="danger">RA</span><span className="white">H</span><span className="green">UL</span></a>
       <h4 className="state__name">Malda</h4>
       <h5>WB 732101, India</h5>    
 
       <ul className='permalinks'>
-        <li><a href="#header">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">My Skills</a></li>
         <li><a href="#services">Services</a></li>
