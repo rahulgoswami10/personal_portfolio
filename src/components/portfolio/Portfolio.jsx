@@ -9,10 +9,11 @@ import './portfolio.css'
 // import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
-import IMG8 from '../../assets/portfolio8.jpg'
+// import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
 import IMG11 from '../../assets/portfolio11.png'
+import IMG12 from '../../assets/portfolio12.jpg'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,8 +28,8 @@ const data = [
     id: 1, //Unique_Key
     image: IMG11,
     title: 'Goswami Coaching Centre',
-    description: 'HTML CSS JS',
-    github: 'https://goswamicoachingcentre.netlify.app'
+    description: 'HTML, CSS, JS',
+    demo: 'https://goswamicoachingcentre.netlify.app'
     // demo:
   },
   
@@ -36,18 +37,17 @@ const data = [
     id: 2,
     image: IMG7,
     title: 'Ice Cream Shop Website',
-    description: 'Django HTML CSS JS',
-    github: 'https://github.com'
+    description: 'Django, HTML, CSS, JS',
+    demo: 'https://github.com'
     // demo:
   },
 
   {
     id: 3,
-    image: IMG8,
-    title: 'Personal Portfolio With Blog',
-    description: 'HTML TAILWIND JS',
-    github: 'https://github.com'
-    // demo:
+    image: IMG12,
+    title: 'GPT-3',
+    description: 'React.js',
+    demo: 'https://generativepretrainedtransformer.netlify.app/'
   },
 
   {
@@ -55,7 +55,7 @@ const data = [
     image: IMG9,
     title: 'Responsive Admin DashBoard',
     description: 'HTML CSS JS',
-    github: 'https://github.com'
+    demo: 'https://github.com',
     // demo:
   }
 ]
@@ -78,18 +78,18 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, description, github}) => {
+          data.map(({id, image, title, description, demo}) => {
            return (
             <article key={id} className="portfolio__item" data-aos="zoom-in-up">
-            <div className="portfolio__item-image">
-              <img src={image} alt={title} />
-            </div>  
-            <h3>{title}</h3>
-            <h5>{description}</h5>
-            <div className="portfolio__item-cta">
-              <a href={github} className='btn' target='_blank' rel="noreferrer">LIVE DEMO <BsEyeFill className='portfolio__item-icon'/></a>
-              {/* <a href="" className='btn btn-primary' target='_blank'>GoLive</a> */}
-            </div>
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>  
+              <h3>{title}</h3>
+              <h5>{description}</h5>
+              <div className="portfolio__item-cta">
+                <a href={demo} className='btn' target='_blank' rel="noreferrer">LIVE DEMO <BsEyeFill className='portfolio__item-icon'/></a>
+                {/* <a href="" className='btn btn-primary' target='_blank'>GoLive</a> */}
+              </div>
             </article>
             )
          })
