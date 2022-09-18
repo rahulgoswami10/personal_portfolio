@@ -4,6 +4,12 @@
     gap: 2rem;
 }
 
+#experience h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -62,6 +68,12 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+    }
+
+    #experience h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
     }
 
     .experience__container > div {

@@ -6,6 +6,12 @@
     gap: 12%;
 }
 
+#contact h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
 .contact__options {
     display: flex;
     flex-direction: column;
@@ -116,6 +122,12 @@ textarea:hover {
 @media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+
+    #contact h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
     }
 
     form {

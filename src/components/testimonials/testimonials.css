@@ -3,6 +3,12 @@
   padding-bottom: 4rem;
 }
 
+#testimonials h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
 .client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
@@ -51,6 +57,12 @@
 @media screen and (max-width: 600px) {
     .container.testimonails__container {
         width: var(--container-width-sm);
+    }
+
+    #testimonials h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
     }
     
     .client__review {

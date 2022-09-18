@@ -4,6 +4,12 @@
     gap: 3rem;
 }
 
+#services h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
 .service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
@@ -71,6 +77,12 @@
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    #services h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
     }
 
 }
