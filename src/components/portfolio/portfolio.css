@@ -113,12 +113,12 @@
     }
 
 
-.portfolio__item-icon {
-    margin-left: 1px;
-    margin-top: 10px;
-    font-size: 14px;
+    .portfolio__item-icon {
+        margin-left: 1px;
+        margin-top: 10px;
+        font-size: 14px;
 
-}
+    }
 
 }
 

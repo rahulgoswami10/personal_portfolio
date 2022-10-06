@@ -1,0 +1,153 @@
+.exclusive__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5rem 5rem 6rem 6rem; */
+    padding: 4rem 10rem 4rem 10rem;
+}
+
+.exclusive {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
+.exclusive__container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    /* border: 2px solid lightblue; */
+    border-radius: 20px;
+    padding: 2.8rem;
+    overflow: hidden;
+}
+
+.exclusive__container::before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 160%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: animate 2s linear infinite;
+}
+
+.exclusive__container::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #00385e;
+    border-radius: 20px;
+}
+
+.exclusive__item {
+    z-index: 10;
+}
+
+@keyframes animate {
+    0% {
+        transform:  rotate(0deg);
+    }
+
+    100% {
+        transform:  rotate(360deg);
+    }
+}
+
+.exclusive__item-image {
+    /* padding: 0.6rem; */
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.exclusive__item h3, h5 {
+    text-align: center;
+
+}
+
+.exclusive__item h3 {
+    margin: 1.2rem 0 2rem;
+    font-size: 1.6rem;
+    color: #f0def6;
+}
+
+.exclusive__item h5 {
+    font-size: 1.2rem;
+    color: #0efff9;
+}
+
+.exclusive__item-cta {
+    display: flex;
+    justify-content: center;
+    /* gap: 1rem; */
+    margin-top: 1rem;
+}
+
+.exclusive__item-cta .btn {
+    padding: 0.5rem 1rem;
+    color: moccasin;
+
+    margin-bottom: 1rem;
+}
+
+.exclusive__item-icon {
+    margin-left: 2px;
+    margin-top: 8px;
+    font-size: 16px;
+
+}
+
+/*>>__TABLETS------------------Media Queries1----------------*/
+@media screen and (max-width: 1024px) {
+
+    .exclusive__item {
+        padding: 1.6rem;
+    }
+
+    .exclusive__item h3 {
+        font-size: 1.2rem;
+    }
+
+    .exclusive__item h5 {
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+}
+
+
+/*>>__MOBILES------------------Media Queries2----------------*/
+@media screen and (max-width: 600px) {
+    .exclusive__container {
+        padding: 1rem;
+    }
+
+    .exclusive__container::after {
+        inset: 2px;
+    }
+
+    .exclusive {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
+    }
+
+    .exclusive__item {
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+
+    .exclusive__item-image {
+        border-radius: 0.4rem;
+    }
+
+    .exclusive__item h3 {
+        font-size: 1rem;
+    }
+
+    .exclusive__item h5 {
+        color: moccasin;
+    }
+
+    .exclusive__item-cta .btn {
+        padding: 0.3rem 0.8rem;
+
+    }
+}
