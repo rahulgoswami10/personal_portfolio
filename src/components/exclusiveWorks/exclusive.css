@@ -27,7 +27,7 @@
     width: 250px;
     height: 160%;
     background: linear-gradient(#00ccff, #d400d4);
-    animation: animate 2s linear infinite;
+    animation: animate 3s linear infinite;
 }
 
 .exclusive__container::after {
@@ -38,10 +38,6 @@
     border-radius: 20px;
 }
 
-.exclusive__item {
-    z-index: 10;
-}
-
 @keyframes animate {
     0% {
         transform:  rotate(0deg);
@@ -50,6 +46,12 @@
     100% {
         transform:  rotate(360deg);
     }
+}
+
+.exclusive__item {
+    padding: 2rem;
+
+    z-index: 10;
 }
 
 .exclusive__item-image {
@@ -130,7 +132,7 @@
     }
 
     .exclusive__item {
-        padding: 1rem;
+        padding: 0.8rem;
         border-radius: 0.6rem;
     }
 
