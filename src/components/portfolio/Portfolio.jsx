@@ -14,6 +14,8 @@ import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
 import IMG11 from '../../assets/portfolio11.png'
 import IMG12 from '../../assets/portfolio12.jpg'
+import IMG13 from '../../assets/portfolio14.jpg'
+import IMG14 from '../../assets/portfolio15.jpg'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -52,10 +54,28 @@ const data = [
 
   {
     id: 4,
+    image: IMG13,
+    title: 'Bingo Finance',
+    description: 'Chart.js',
+    demo: 'https://bingofinance.netlify.app',
+    // demo:
+  },
+
+  {
+    id: 5,
     image: IMG9,
     title: 'Responsive Admin DashBoard',
     description: 'HTML CSS JS',
     demo: 'https://github.com',
+    // demo:
+  },
+
+  {
+    id: 6,
+    image: IMG14,
+    title: 'Parallax Scrolling effect with Animation',
+    description: 'HTML CSS JS',
+    demo: 'https://animatedforest.netlify.app/',
     // demo:
   }
 ]
