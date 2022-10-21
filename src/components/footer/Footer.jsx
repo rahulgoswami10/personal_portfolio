@@ -35,6 +35,15 @@ const Footer = () => {
         <a href="https://twitter.com"><AiOutlineTwitter /></a>
       </div>
 
+      {/*---- News Letter ----*/}
+      <h3>Subscribe for Newsletter</h3>
+      <div className="footer__newsletter">
+        {/* <h3>Subscribe for Newsletter</h3> */}
+        <input type="email" placeholder="Enter your email" name="email" />
+        <button id="button">Subscribe</button>
+      </div>
+
+      {/*-- CopyRight Part --*/}
       <div className="footer__copyright">
         <small>&copy; Rahul Goswami | <span className="red">All Rights Reserved</span></small>
       </div>
