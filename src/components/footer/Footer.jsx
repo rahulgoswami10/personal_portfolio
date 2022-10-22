@@ -3,6 +3,7 @@ import './footer.css'
 import {AiOutlineFacebook} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
+import {FaChevronUp} from 'react-icons/fa'
 // import {MdOutlineArrowForwardIos} from 'react-icons/md'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -36,7 +37,7 @@ const Footer = () => {
       </div>
 
       {/*---- News Letter ----*/}
-      <h3>Subscribe for Newsletter</h3>
+      <h3>Subscribe To Newsletter</h3>
       <div className="footer__newsletter">
         {/* <h3>Subscribe for Newsletter</h3> */}
         <input type="email" placeholder="Enter your email" name="email" />
@@ -46,6 +47,10 @@ const Footer = () => {
       {/*-- CopyRight Part --*/}
       <div className="footer__copyright">
         <small>&copy; Rahul Goswami | <span className="red">All Rights Reserved</span></small>
+      </div>
+      {/*------ Pre Loader ------*/}
+      <div className="footer__preloader">
+        <a href="#" className="btn"><FaChevronUp /></a>
       </div>
     </footer>  
    )
