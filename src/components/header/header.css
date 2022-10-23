@@ -63,7 +63,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5rem 6rem;
+    margin: 2rem 6rem;
     padding: 4rem 6rem 4rem 6rem;
     /* border: 1px solid #fff; */
     /* width: 100%; */
@@ -72,6 +72,102 @@ video {
 .typo span {
     font-size: 6rem;
 }
+
+.main .resume {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    margin-top: 25rem;
+    box-sizing: border-box;
+    border: 2.8px solid #ffff;
+    border-radius: 0.4rem;
+    /* padding: 2rem; */
+
+    transform: translateX(-11%);
+}
+
+.main .resume a {
+    /* border: 2px solid #fff; */
+    color: gold;
+    /* border-radius: 0.2rem; */
+    background: transparent;
+    font-size: 1.2rem;
+
+    font-weight: 500;
+}
+
+.resume .btn {
+    padding: 0.8rem 1.6rem;
+}
+
+.main .resume a:hover {
+    color: moccasin;
+}
+
+
+
+/*==== SCROLL DOWN BUTTON ==== */
+.scroll_down {
+    height: 60px;
+    width: 30px;
+    border: 2.5px solid powderblue;
+    position: absolute;
+
+    transform: translateX(-50%);
+    bottom: 12rem;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1.8rem 0.9rem;
+}
+
+.scroll_down::before,
+.scroll_down::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid moccasin;
+    height: 10px;
+    width: 10px;
+
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll_down::after {
+    top: 30%;
+    animation-delay: .3s;
+}
+
+@keyframes scroll-down {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        top: 85%; 
+    }
+}
+
+.scroll_down a {
+    color: red;
+    font-size: 3.4rem;
+    margin-left: -0.3rem;
+    cursor: pointer;
+}
+
+
 
 /*-----------------CALL_TO_ACTION-------------------*/
 /*.ctoa {
@@ -174,6 +270,10 @@ video {
         font-size: 2.6rem;
     }
 
+    .main .resume {
+        margin-top: 20rem;
+    }
+
 }
 
 /*>>__MOBILES------------------Media Queries2----------------*/
@@ -217,6 +317,47 @@ video {
 
         color: moccasin;
         font-weight: 450;
+    }
+
+    .main .resume {
+        width: 100px;
+        height: 40px;
+        margin-top: 10rem;
+
+        transform: translateX(-5%);
+        border: 1.8px solid #fff;
+        border-radius: 0.2rem;
+    }
+
+    .main .resume a {
+        font-size: 0.6rem;
+    }
+
+    .resume .btn {
+        padding: 0.6rem 1rem;
+    }
+
+    .scroll_down {
+        height: 55px;
+        width: 25px;
+        border: 2px solid #dfdced;
+        transform: translateX(-10%);
+        bottom: 10rem;
+    }
+
+    .scroll_down:before,
+    .scroll_down:after {
+        height: 8px;
+        width: 8px;
+
+        border: 1.6px solid lightblue;
+
+        border-top: transparent;
+        border-left: transparent;
+    }
+
+    .scroll_down a {
+        font-size: 3rem;
     }
 
 }
