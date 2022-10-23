@@ -1,8 +1,14 @@
 import React from 'react'
 import './header.css'
-import CTOA from './CTOA'
-import ME from '../../assets/me5.png'
-import Socials from './Socials'
+// import CTOA from './CTOA'
+// import ME from '../../assets/me5.png'
+// import Socials from './Socials'
+// import asteriods from '../../assets/live_Asteriod.mp4'
+// import astraunut from '../../assets/Astraunut.mp4'
+// import nightRide from '../../assets/night_ride.mp4'
+// import bg_video1 from '../../assets/bg_video1.mp4'
+import binary_coder from '../../assets/binary_coder.mp4'
+// import technology from '../../assets/technology.mp4'
 import AOS from 'aos'
 // import Typical from 'react-typical'
 import 'aos/dist/aos.css'
@@ -17,34 +23,37 @@ AOS.init({
 
 const Header = () => {
   return (
-    <header>
-      <div className="container header__container">
-       <h5>Hello I'm</h5>
-       <h1><span className="danger">Rahul</span><span className="blue"> Goswami</span></h1>
-       <h5 className="text-light">
-        <span style={{ fontWeight: 'bold' }}>
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
-            words={['FullSack Developer', 'Web Designer', 'Freelancer', 'Self-Believer']}
-            loop={Infinity}
-            cursor
-            cursorStyle='.'
-            typeSpeed={70}
-            deleteSpeed={40}
-            delaySpeed={1000}
-          />
-        </span>
-        </h5>
-       <CTOA />
-       <Socials />
+    // <header>
+    <div className="main">
+        <div className="overlay"></div>
+         <video src={binary_coder} autoPlay loop muted /> 
+         {/* <div className="container header__container"></div> */}
+        <div className="content">
+          <div className="typo">
+            <span style={{ fontWeight: 'bold' }}>
+            { /* Style will be inherited from the parent element */}
+              <Typewriter
+                words={['Hi Pal',"I'm Rahul",'Web Developer','Web Designer','Freelancer']}
+                loop={Infinity}
+                cursor
+                cursorStyle='|'
+                typeSpeed={80}
+                deleteSpeed={60}
+                delaySpeed={1800}
+              />
+            </span>
+          </div>
+        {/* <CTOA /> */}
+        {/* <Socials /> */}
 
-       <div className="me">
-        <img src={ME} alt="me" />
-       </div>
+          {/*<div className="me">
+            <img src={ME} alt="me" />
+            </div>*/}
 
-       <a href="#contact" className='scroll__down'>Scroll Down</a>
-      </div>
-    </header>
+        {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
+        </div>
+    </div>    
+    // </header>
   )
 }
 

@@ -1,29 +1,88 @@
-header {
+ /*header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+
+     background: rgb(55, 42, 42);
+}*/
+
+.main {
+    width: 100%;
+    height: 100vh;
 }
 
-.header__container {
+/*.header__container {
     text-align: center;
     height: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+}*/
+
+video {
+    width: 100%;
+    height:100vh;
+    object-fit: cover;
+    /* opacity: 0.2; */
 }
 
-header h5 {
-    color: white;
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 1rem 1.2rem rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content h5 {
+    color: moccasin;
+    margin-bottom: 20;
+    margin-left: 15rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.typo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 6rem;
+    padding: 4rem 6rem 4rem 6rem;
+    /* border: 1px solid #fff; */
+    /* width: 100%; */
+}
+
+.typo span {
+    font-size: 6rem;
 }
 
 /*-----------------CALL_TO_ACTION-------------------*/
-.ctoa {
+/*.ctoa {
     margin-top: 2.5rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
-}
+}*/
 
 /*-----------------Header_Socials_ICONS-------------------*/
-.header__socials {
+/*.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,11 +98,11 @@ header h5 {
     width: 1px;
     height: 2.8em;
     background: var(--color-primary);
-}
+}*/
 
 /*----------------My_photo-------------------*/
 
-.me {
+/*.me {
     background-image: linear-gradient(
     135deg,
     #172440,
@@ -56,11 +115,12 @@ header h5 {
     position: absolute;
     left: calc(50% - 10rem);
     margin-top: 4rem;
-    /* border-radius: 9rem 9rem 0 0; */
+    border-radius: 9rem 9rem 0 0;
     border: 0.4px solid floralwhite;
     overflow: hidden;
     padding: 0rem 0rem 0.5rem 0.5rem;
     animation: bg-animation 10s infinite alternate;
+    display: none;
 }
 
 @keyframes bg-animation {
@@ -74,10 +134,10 @@ header h5 {
 
 .me img {
     padding-top: 4rem;
-}
+}*/
 
 /*-----------------SCROLL_DOWN------------------*/
-.scroll__down {
+/*.scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -88,16 +148,16 @@ header h5 {
 
 .blue {
     color: var(--color-blue);
-}
+}*/
 
 /*>>__TABLETS------------------Media Queries1----------------*/
 @media screen and (max-width: 1024px) {
-    header {
+    /*header {
         height: 68vh;
-    }
+    }*/
 
     /*-----------------Header_Socials_ICONS-------------------*/
-   .header__socials { 
+  /* .header__socials { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,16 +165,20 @@ header h5 {
     position: absolute;
     left: 0rem;
     bottom: 1rem;
-}
+}*/
 
-    .me img {
+    /*.me img {
       padding-top: 2rem;
-    } 
+    } */
+    .typo span {
+        font-size: 2.6rem;
+    }
+
 }
 
 /*>>__MOBILES------------------Media Queries2----------------*/
 @media screen and (max-width: 600px) {
-    header {
+   /* header {
         height: 100vh;
     }
 
@@ -123,12 +187,36 @@ header h5 {
     }
 
     .me {
-        /* border: 1.6px solid tomato; */
-        /* border: none; */
-        /* outline: none; */
+        border: 1.6px solid tomato;
+        border: none;
+        outline: none;
         border-radius: 0.6rem;
         border: 0.3px solid #e2e2e2;
         height: 25rem;
+    }*/
+
+    video {
+        /* height: 90vh; */
+        width: 100vw;
+        object-fit: content;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5);
+    }
+
+    .typo {
+        display: inline;
+        padding: 0.8rem;
+    }
+    
+    .typo span {
+        font-size: 1.5rem;
+        font-family: Verdana;
+
+        color: moccasin;
+        font-weight: 450;
     }
 
 }
