@@ -9,6 +9,7 @@ import './header.css'
 // import bg_video1 from '../../assets/bg_video1.mp4'
 import binary_coder from '../../assets/binary_coder.mp4'
 // import technology from '../../assets/technology.mp4'
+import myresume from '../../assets/MyResume.pdf'
 
 import AOS from 'aos'
 // import Typical from 'react-typical'
@@ -53,7 +54,7 @@ const Header = () => {
 
         {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
             <div className="resume">
-              <a href="#contact" className='btn'>Download CV</a>
+              <a href={myresume} className='btn'>Download CV</a>
             </div>
             <div className="scroll_down">
               <a href="#about">.</a>

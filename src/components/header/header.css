@@ -77,10 +77,10 @@ video {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 70px;
+    width: 150px;
+    height: 60px;
     position: absolute;
-    margin-top: 25rem;
+    margin-top: 22rem;
     box-sizing: border-box;
     border: 2.8px solid #ffff;
     border-radius: 0.4rem;
@@ -94,13 +94,13 @@ video {
     color: gold;
     /* border-radius: 0.2rem; */
     background: transparent;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     font-weight: 500;
 }
 
 .resume .btn {
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.2rem;
 }
 
 .main .resume a:hover {
