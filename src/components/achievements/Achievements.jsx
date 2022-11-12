@@ -6,7 +6,7 @@ import CERTIFICATE2 from '../../assets/certificate2.png'
 import CERTIFICATE3 from '../../assets/certificate3.png'
 import CERTIFICATE4 from '../../assets/certificate4.png'
 import CERTIFICATE5 from '../../assets/certificate5.png'
-// import CERTIFICATE6 from '../../assets/certificate6.png'
+import CERTIFICATE6 from '../../assets/certificate6.png'
 import CERTIFICATE7 from '../../assets/certificate7.png'
 
 
@@ -47,6 +47,10 @@ const data =[
     {
         certificate: CERTIFICATE5,
         title: 'Javascript Basics'
+    },
+    {
+        certificate: CERTIFICATE6,
+        title: 'Basics Of HTML and CSS'
     },
     {
         certificate: CERTIFICATE7,
