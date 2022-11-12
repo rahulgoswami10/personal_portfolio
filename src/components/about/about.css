@@ -75,6 +75,7 @@
     margin: 2rem 0 2.6rem;
     /* color: powderblue; */
     color: var(--color-light);
+    font-size: 1.3rem;
 }
 
 /*>>__TABLETS------------------Media Queries1----------------*/
@@ -91,6 +92,7 @@
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+        font-size: 1rem;
     }
     
 }
@@ -120,6 +122,7 @@
 
     .about__content p {
         margin: 1.5rem 0;
+        font-size: 0.8rem;
     }
 
 }
