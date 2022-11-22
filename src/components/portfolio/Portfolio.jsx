@@ -8,7 +8,7 @@ import './portfolio.css'
 // import IMG4 from '../../assets/portfolio4.jpg'
 // import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
-import IMG7 from '../../assets/portfolio7.jpg'
+// import IMG7 from '../../assets/portfolio7.jpg'
 // import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
@@ -16,6 +16,7 @@ import IMG11 from '../../assets/portfolio11.png'
 import IMG12 from '../../assets/portfolio12.jpg'
 import IMG13 from '../../assets/portfolio14.jpg'
 import IMG14 from '../../assets/portfolio15.jpg'
+import IMG15 from '../../assets/portfolio16.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,10 +38,10 @@ const data = [
   
   {
     id: 2,
-    image: IMG7,
-    title: 'Ice Cream Shop Website',
-    description: 'Django, HTML, CSS, JS',
-    demo: 'https://github.com'
+    image: IMG15,
+    title: 'HealthCare Website',
+    description: 'HTML, SASS, JS',
+    demo: 'https://bingohealthcare.netlify.app'
     // demo:
   },
 
