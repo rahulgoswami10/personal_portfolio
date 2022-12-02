@@ -3,7 +3,9 @@ import './footer.css'
 import {AiOutlineFacebook} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
-import {FaChevronUp} from 'react-icons/fa'
+import {AiFillLinkedin} from 'react-icons/ai'
+// import {FaChevronUp} from 'react-icons/fa'
+import {FiArrowUp} from 'react-icons/fi'
 // import {MdOutlineArrowForwardIos} from 'react-icons/md'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -28,12 +30,14 @@ const Footer = () => {
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Projects</a></li>
         {/* <li><a href="#testimonials"><MdOutlineArrowForwardIos/>Testimonials</a></li> */}
+        <li><a href="#faqs">FAQ's</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
         <a href="https://facebook.com"><AiOutlineFacebook /></a>
         <a href="https://instagram.com"><AiOutlineInstagram /></a>
-        <a href="https://twitter.com"><AiOutlineTwitter /></a>
+        <a href="https://instagram.com"><AiOutlineTwitter /></a>
+        <a href="https://www.linkedin.com/in/rahul-goswami-452918214/"><AiFillLinkedin /></a>
       </div>
 
       {/*---- News Letter ----*/}
@@ -50,7 +54,7 @@ const Footer = () => {
       </div>
       {/*------ Pre Loader ------*/}
       <div className="footer__preloader">
-        <a href="#" className="btn"><FaChevronUp /></a>
+        <a href="#" className="btn"><FiArrowUp /></a>
       </div>
     </footer>  
    )

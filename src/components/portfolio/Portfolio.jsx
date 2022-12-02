@@ -10,13 +10,14 @@ import './portfolio.css'
 // import IMG6 from '../../assets/portfolio6.jpg'
 // import IMG7 from '../../assets/portfolio7.jpg'
 // import IMG8 from '../../assets/portfolio8.jpg'
-import IMG9 from '../../assets/portfolio9.jpg'
+// import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
 import IMG11 from '../../assets/portfolio11.png'
 import IMG12 from '../../assets/portfolio12.jpg'
 import IMG13 from '../../assets/portfolio14.jpg'
 import IMG14 from '../../assets/portfolio15.jpg'
 import IMG15 from '../../assets/portfolio16.png'
+import IMG17 from '../../assets/portfolio17.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -47,27 +48,27 @@ const data = [
 
   {
     id: 3,
-    image: IMG12,
-    title: 'GPT-3',
-    description: 'React.js',
-    demo: 'https://generativepretrainedtransformer.netlify.app/'
+    image: IMG17,
+    title: 'Xmas 2k22',
+    description: 'HTML, CSS, JS, ScrollReveal',
+    demo: 'https://xmas22.netlify.app'
   },
 
   {
     id: 4,
     image: IMG13,
-    title: 'Bingo Finance',
-    description: 'Chart.js',
+    title: 'Responsive Admin Dashboard',
+    description: 'HTML, CSS, Chart.js',
     demo: 'https://bingofinance.netlify.app',
     // demo:
   },
 
   {
     id: 5,
-    image: IMG9,
-    title: 'Responsive Admin DashBoard',
-    description: 'HTML CSS JS',
-    demo: 'https://github.com',
+    image: IMG12,
+    title: 'GPT-3',
+    description: 'React.js',
+    demo: 'https://generativepretrainedtransformer.netlify.app'
     // demo:
   },
 

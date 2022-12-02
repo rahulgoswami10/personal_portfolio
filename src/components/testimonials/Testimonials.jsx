@@ -29,7 +29,7 @@ const data =[
   {
     avatar: AVATAR5,
     name: 'Keya Chakraborty',
-    review: 'Satisfied With the service. Great Designings and Animation. Rahul is also a very well mannered guy. I would like to give hime 5 star'
+    review: 'Satisfied With the service. Great Designings and Animation.'
   },
   {
     avatar: AVATAR5,

@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Exclusive from './components/exclusiveWorks/Exclusive'
 import Achievements from './components/achievements/Achievements'
 import Testimonials from './components/testimonials/Testimonials'
+import FAQs from './components/faqs/FAQs'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import {useState, useEffect} from 'react'
@@ -65,6 +66,7 @@ const App = () => {
         <Exclusive />
         <Achievements />
         <Testimonials />
+        <FAQs />
         <Contact />
         <Footer />
 

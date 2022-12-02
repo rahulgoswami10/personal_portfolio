@@ -1,5 +1,28 @@
 footer {
-    background: rgb(130, 187, 208);
+    /* background: rgb(130, 187, 208); */
+
+            /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(146, 161, 213, 1) 0%, rgba(22, 44, 103, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(146, 161, 213, 1) 0%, rgba(22, 44, 103, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(146, 161, 213, 1) 0%, rgba(22, 44, 103, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#162C67', endColorstr='#92A1D5', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(146, 161, 213, 1) 0%, rgba(22, 44, 103, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(146, 161, 213, 1) 0%, rgba(22, 44, 103, 1) 100%);
+
+
+
+
+
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -68,27 +91,28 @@ footer h5 {
 }
 
 .footer__socials a {
-    /* background: var(--color-bg-variant); */
-    background-image: linear-gradient(
+    background: var(--color-bg-variant);
+    /* background-image: linear-gradient(
     45deg,
     blue,
     red,
-    blue);
-    background-size: 600%;
+    blue); */
+    /* background-size: 600%; */
     color: moccasin;
     padding: 0.6rem;
     border-radius: 0.5rem;
     display: flex;
     border: 1px solid transparent;
     font-size: 1.5rem;
-    animation: bg-animation 5s linear infinite alternate-reverse;
+    /* animation: bg-animation 5s linear infinite alternate-reverse; */
 }
 
 h3 {
-    color: #0f5536;
+    /* color: #0f5536; */
+    color: #fff;
 }
 
-@keyframes bg-animation {
+/* @keyframes bg-animation {
     0% {
         background-position: left;
     }
@@ -100,7 +124,7 @@ h3 {
     100% {
         background-position: right;
     }
-}
+} */
 
 .footer__socials a:hover {
     background: transparent;
@@ -123,7 +147,7 @@ h3 {
 .footer__newsletter input {
     width: 100%;
     /* justify-content: center; */
-    /* border: 0.6px solid white; */
+    border: 0.6px solid white;
     font-size: 1.4rem;
     line-height: 22px;
     border-top-left-radius: 0.8rem;
@@ -181,7 +205,8 @@ h3 {
 .footer__copyright {
     margin-bottom: 4rem;
     /* margin-bottom: 6rem; */
-    color: var(--color-bg);
+    /* color: var(--color-bg); */
+    color: palegoldenrod;
     font-size: 1rem;
 
     /* border-top: 0.2px dotted #cfffde; */
@@ -199,21 +224,23 @@ h3 {
 .footer__preloader a {
     /* flex: 2; */
     /* color: red; */
-    height: 4rem;
-    width: 4rem;
-    background: rgb(241, 25, 25);
+    height: 2.5rem;
+    width: 2.5rem;
+    background: var(--color-primary);
     box-sizing: border-box;
     outline: none;
     border: none;
-    border: 0.2px solid powderblue;
-    color: moccasin;
+    /* border: 0.2px solid powderblue; */
+    /* color: moccasin; */
+    color: var(--color-bg);
 
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     /* font-weight: bold; */
-    padding: 0.9rem 0.6rem;
+    padding: 0.7rem 0.5rem;
 
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     margin-top: 0;
+    opacity: .65;
 }
 
 
@@ -232,7 +259,7 @@ h3 {
         border-top-left-radius: 0.4rem;
         border-bottom-left-radius: 0.4rem;
 
-        border: 0.8px solid powderblue;
+        /* border: 0.8px solid powderblue; */
     }
 
     .footer__newsletter button {
@@ -247,11 +274,11 @@ h3 {
     }
 
     .footer__preloader a {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
 
-        font-size: 1.2rem;
-        padding: 0.58rem 0.5rem;
+        font-size: 1.3rem;
+        padding: 0.4rem 0.5rem;
     }
 }
 
@@ -282,7 +309,7 @@ h3 {
         margin-left: 2.3rem;
         padding: .4rem 1rem;
 
-        border: 0.4px solid powderblue;
+        /* border: 0.4px solid powderblue; */
     }
 
     .footer__newsletter button {
@@ -303,11 +330,18 @@ h3 {
         height: 2rem;
         width: 2rem;
 
-        font-size: 0.8rem;
-        border-radius: 0.4rem;
+        font-size: 1rem;
+        border-radius: 0.3rem;
         padding: 0.4rem 0.5rem;
+        opacity: .6;
 
         margin-top: -8rem;
+    }
+
+    footer h3 {
+        color: #ffffff;
+        font-weight: 400;
+        font-size: .8rem;
     }
 
 }

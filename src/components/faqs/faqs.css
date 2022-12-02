@@ -1,0 +1,107 @@
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem 3.6rem;
+    align-items: start;
+    margin-top: 4rem;
+}
+
+section > h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    text-shadow: 6px 12px 5px black;
+}
+
+section > p {
+    text-align: center;
+    color: var(--color-light);
+    font-size: .9rem;
+    /* padding-top: 0; */
+    margin-top: -1.8rem;
+}
+
+.card.faq:hover {
+    cursor: pointer;
+    /* background: var(--color-primary-variant); */
+    /* transform: translateY(-.4rem); */
+    /* transition: .4s; */
+}
+
+.faq > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.faq h5 {
+    line-height: 1.4;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-light);
+    /* color: #fff; */
+}
+
+.faq__icon {
+    font-size: 1.2rem;
+    /* color: var(--color-light); */
+    color: #fff;
+    background: transparent;
+}
+
+.faq__answer {
+    margin-top: 1rem;
+    font-size: .9rem;
+    /* color: var(--color-light); */
+    color: #fff;
+
+    opacity: 0;
+    animation: animateAnswer 470ms ease-in forwards;
+} 
+
+@keyframes animateAnswer {
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*====================== MEDIA QUERIES FOR TABLETS ======================*/
+@media screen and (max-width: 1024px) {
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+
+    section > p {
+        margin-bottom: 1.5rem;;
+    }
+}
+
+/*====================== MEDIA QUERIES FOR MOBILES ======================*/
+@media screen and (max-width: 660px) {
+    .faqs__container {
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    section > h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-shadow: 6px 10px 5px black;
+    }
+
+    section > p {
+        font-size: .8rem;
+        margin-bottom: 1.5rem;;
+    }
+
+    .faq h5 {
+        font-size: .85rem;
+        display: block;
+        font-weight: 400;
+    }
+
+    .faq__answer {
+        font-size: .75rem;
+    }
+}

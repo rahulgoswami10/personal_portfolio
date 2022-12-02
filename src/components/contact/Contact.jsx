@@ -51,7 +51,7 @@ const Contact = () => {
             <SiWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>Rahul</h5>
-            <a href="https://web.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer">Let's Talk</a>
+            <a href="https://api.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer">Let's Talk</a>
           </article>
           <article className="contact__option" data-aos="zoom-in-up">
             <TbBrandTelegram className='contact__option-icon' />

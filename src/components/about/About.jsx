@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about2.jpg'
+// import ME from '../../assets/me-about2.jpg'
+import ME from '../../assets/me-about5.jpg'
 import { FiAward } from 'react-icons/fi'
 import { TbUsers } from 'react-icons/tb'
 import { BsFolderCheck } from 'react-icons/bs'
@@ -55,7 +56,7 @@ const About = () => {
             I am curious, and I enjoy work that challenges me to learn something new and stretch in a different direction.
           </p>
 
-          <a href="#contact" className='btn btn-primary' data-aos="flip-up">Contact Me</a>
+          <a href="https://api.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer" className='btn btn-primary' data-aos="flip-up">Let's Talk</a>
         </div>
       </div>
     </section>
