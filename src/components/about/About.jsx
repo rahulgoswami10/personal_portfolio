@@ -5,10 +5,11 @@ import ME from '../../assets/me-about5.jpg'
 import { FiAward } from 'react-icons/fi'
 import { TbUsers } from 'react-icons/tb'
 import { BsFolderCheck } from 'react-icons/bs'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
-  offset: 350,
+  offset: 1000,
   duration: 1200,
   mirror: true,
 });
@@ -21,7 +22,7 @@ const About = () => {
       <h2 className="about__intro" data-aos="zoom-in">About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about__me" data-aos="zoom-in-up">
           <div className="about__me-image">
             <img src={ME} alt="about" />
           </div>
@@ -49,14 +50,14 @@ const About = () => {
           </div>
 
           <p classname="mydes" data-aos="fade-right">
-            I am a web developer and designer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. 
-             I'm proficient both in front-end & back-end. My primary focus for my study is Web Application development.
-            I build responsive websites that delight and inform. I do it well.
+            Hi, I'm <strong>Rahul Goswami</strong>, a <strong>Front-end Developer</strong> and <strong>UX designer</strong>. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. 
+            My primary focus for my study is <strong>Web Application</strong> development.
+            I build responsive websites that delight and inform.
 
             I am curious, and I enjoy work that challenges me to learn something new and stretch in a different direction.
           </p>
 
-          <a href="https://api.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer" className='btn btn-primary' data-aos="flip-up">Let's Talk</a>
+          <a href="https://api.whatsapp.com/send?phone=+919679441193" target="_blank" rel="noreferrer" className='btn btn-primary' data-aos="flip-up">Let's Talk &nbsp;<AiOutlineArrowRight/></a>
         </div>
       </div>
     </section>
