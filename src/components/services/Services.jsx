@@ -51,11 +51,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FiEdit className="service__list-icon" />
-                <p>Front-end Web Developement</p>
+                <p>Front-end Developement</p>
             </li>
             <li>
               <FiEdit className="service__list-icon" />
-                <p>Back-end Web Developement</p>
+                <p>Back-end Developement</p>
             </li>
             <li>
               <FiEdit className="service__list-icon" />

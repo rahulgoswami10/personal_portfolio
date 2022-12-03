@@ -16,11 +16,11 @@
     border-radius: 1.8rem;
     /* border: 1px solid transparent; */
 
-    background: rgba(149, 118, 118, 0.1);
+    /* background: rgba(149, 118, 118, 0.1);
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
 }   
 
 .experience__container > div:hover {
@@ -32,26 +32,50 @@
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
     /* text-decoration: underline; */
+    color: var(--color-light);
 }
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2.5rem;
-    /* column-gap: 2rem; */
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 1.4rem;
+}
+
+article {
+    background: hsl(0 0% 5% / .3);
+    backdrop-filter: blur(.1rem);
+    border-radius: .4rem;
+    box-shadow: 0 1px 1px black;
 }
 
 .experience__details {
     display: flex;
-    gap: 1rem;
+    gap: .7rem;
+    padding:1.2rem 2rem;
+}
+
+.experience__details > div h4 {
+    /* color: var(--color-light); */
+    /* padding: .5rem .6rem; */
+    color: floralwhite;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.experience__details img {
+    height: 50px;
+    width: 45px;
+    /* padding: .2rem; */
 }
 
 .experience__details-icon {
-    margin-top: 6px;
+    /* margin-top: 6px; */
     /* color: var(--color-primary); */
-    color: powderblue;
+    /* color: powderblue; */
 }
 
 /*>>__TABLETS------------------Media Queries1----------------*/
@@ -64,6 +88,10 @@
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr 1fr;
     }
 
     .experience__content {
@@ -85,9 +113,32 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 1.8rem 0;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: .8rem;
+        padding-top: 0;
     }
     
+    .experience__details {
+        padding: 1.2rem .45rem;
+        gap: .9rem;
+    }
 
+    .experience__details img {
+        height: 40px;
+        width: 35px;
+        /* padding: .2rem; */
+    }
+
+}
+
+@media screen and (max-width: 384px) {
+    .experience__container > div {
+       padding: 0;
+    }
 }
 

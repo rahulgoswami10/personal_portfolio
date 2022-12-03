@@ -14,7 +14,7 @@ AOS.init({
 const Exclusive = () => {
   return (
     <section>
-        <h5>Recent Designs</h5>
+        {/* <h5>Recent Designs</h5> */}
         <h2 className="exclusive" data-aos="zoom-in">Exclusive Design</h2>
         <div className="container exclusive__container">
             <article className="exclusive__item">
