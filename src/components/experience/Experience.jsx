@@ -39,8 +39,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init({
-  offset: 300,
-  duration: 1050,
+  offset: 800,
+  duration: 1200,
   mirror: true,
 });
 
@@ -56,7 +56,7 @@ const Experience = () => {
           <h3>Frontend Developement</h3>
           <div className="experience__content">
             {/*==================== Article 1 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <AiFillHtml5 className="experience__details-icon" /> */}
               <img src= {Logo1} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -66,7 +66,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 2 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="fade-up">
               {/* <SiCss3 className="experience__details-icon" /> */}
               <img src= {Logo2} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -76,7 +76,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 3 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <SiJavascript className="experience__details-icon" /> */}
               <img src= {Logo3} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -86,7 +86,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 4 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="fade-up">
               {/* <BsFillBootstrapFill className="experience__details-icon" /> */}
               <img src= {Logo4} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -96,7 +96,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 5 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <SiTailwindcss className="experience__details-icon" /> */}
               <img src= {Logo5} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -106,7 +106,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 6 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo6} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -116,7 +116,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 7 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo19} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -126,7 +126,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 8 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="fade-up">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo7} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -136,7 +136,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 9 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo8} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -146,7 +146,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 10 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="fade-up">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo9} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -156,7 +156,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 11 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo10} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -166,7 +166,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 12 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrReactjs className="experience__details-icon" /> */}
               <img src= {Logo11} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -177,11 +177,12 @@ const Experience = () => {
           </div>
         </div>
         {/*------------------End_Of_FrontEnd-----------------*/}
+
         <div className="experience__backend" data-aos="zoom-in-up">
           <h3>Backend Developement</h3>
            <div className="experience__content">
             {/*==================== Article 13 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <SiPython className="experience__details-icon" /> */}
               <img src= {Logo13} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -191,7 +192,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 14 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="fade-up">
               {/* <SiDjango className="experience__details-icon" /> */}
               <img src= {Logo21} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -201,7 +202,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 15 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrNode className="experience__details-icon" /> */}
               <img src= {Logo17} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -211,7 +212,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 16 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <GrMysql className="experience__details-icon" /> */}
               <img src= {Logo20} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -221,7 +222,7 @@ const Experience = () => {
             </article>
 
             {/*==================== Article 17 ====================*/}
-            <article className="experience__details">
+            <article className="experience__details" data-aos="slide-right">
               {/* <SiPhp className="experience__details-icon" /> */}
               <img src= {Logo15} alt="html-logo" className="experience__details-icon"/>
               <div>
@@ -231,7 +232,7 @@ const Experience = () => {
             </article>
 
                {/*==================== Article 18 ====================*/}
-               <article className="experience__details">
+               <article className="experience__details" data-aos="fade-up">
               {/* <SiPhp className="experience__details-icon" /> */}
               <img src= {Logo16} alt="html-logo" className="experience__details-icon"/>
               <div>

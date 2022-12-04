@@ -67,6 +67,7 @@ article {
 }
 
 .experience__details img {
+    /* display: flex; */
     height: 50px;
     width: 45px;
     /* padding: .2rem; */

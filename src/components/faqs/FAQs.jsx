@@ -17,7 +17,7 @@ const FAQs = () => {
       <p>
         Here are some questions I usually get very often.
       </p>
-      <div className="container faqs__container">
+      <div className="container faqs__container" data-aos="slide-right">
         {
            faqs.map(faq => (
              <FAQ key={faq.id} faq={faq}/>

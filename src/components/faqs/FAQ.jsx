@@ -2,6 +2,15 @@ import Card from '../../components/Cards'
 import {AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
 import { useState } from 'react'
 
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+// AOS.init({
+//   offset: 800,
+//   duration: 1200,
+//   mirror: true,
+// });
+
 const FAQ = ({faq}) => {
     const [showAnswer, setShowAnswer] = useState(false);
 
