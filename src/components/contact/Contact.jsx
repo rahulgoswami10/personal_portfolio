@@ -18,6 +18,9 @@ import emailjs from 'emailjs-com'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 AOS.init({
   offset: 300,
   duration: 1200,
@@ -33,8 +36,12 @@ const Contact = () => {
 
     emailjs.sendForm('service_6b93m8d', 'template_247e9yg', form.current, '9C27gMDfh1igSriKS')
     e.target.reset()
+    toast.success('Messege sent', {
+      position: "top-right",
+      autoClose: 7000,
+      theme: "colored"
+    })
   };
-
 
   return (
     <section id="contact">
@@ -121,6 +128,7 @@ const Contact = () => {
           <input type="email" name='email' placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
           <button type="submit" className='btn btn-primary'> Send Message <BiSend /></button>
+          <ToastContainer position="top-center" />
         </form>
         {/*_______________END OF CONTACT FORM_______________*/}
       </div>

@@ -1,12 +1,16 @@
 import React from 'react'
 import './footer.css'
 import {AiOutlineFacebook} from 'react-icons/ai'
+import {FaFacebookF} from 'react-icons/fa'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
+import {SiGmail} from 'react-icons/si'
 // import {FaChevronUp} from 'react-icons/fa'
 import {FiArrowUp} from 'react-icons/fi'
 // import {MdOutlineArrowForwardIos} from 'react-icons/md'
+// import { UilEnvelopes } from '@iconscout/react-unicons'
+// import { UilEnvelopeAlt } from '@iconscout/react-unicons'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
