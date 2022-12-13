@@ -15,9 +15,10 @@ import './portfolio.css'
 import IMG11 from '../../assets/portfolio11.png'
 import IMG12 from '../../assets/portfolio12.jpg'
 import IMG13 from '../../assets/portfolio14.jpg'
-import IMG14 from '../../assets/portfolio15.jpg'
+// import IMG14 from '../../assets/portfolio15.jpg'
 import IMG15 from '../../assets/portfolio16.png'
 import IMG17 from '../../assets/portfolio17.png'
+import IMG18 from '../../assets/portfolio18.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -36,7 +37,7 @@ const data = [
     demo: 'https://goswamicoachingcentre.netlify.app'
     // demo:
   },
-  
+
   {
     id: 2,
     image: IMG15,
@@ -74,10 +75,10 @@ const data = [
 
   {
     id: 6,
-    image: IMG14,
-    title: 'Parallax Scrolling effect with Animation',
-    description: 'HTML CSS JS',
-    demo: 'https://animatedforest.netlify.app/',
+    image: IMG18,
+    title: 'Metaverse Mania',
+    description: 'Next.js, Tailwind',
+    demo: 'https://metaverse-mania.netlify.app',
     // demo:
   }
 ]
@@ -105,7 +106,7 @@ const Portfolio = () => {
             <article key={id} className="portfolio__item" data-aos="zoom-in-up">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
-              </div>  
+              </div>
               <h3>{title}</h3>
               <h5>{description}</h5>
               <div className="portfolio__item-cta">
