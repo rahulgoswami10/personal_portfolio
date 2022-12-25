@@ -52,7 +52,7 @@ const Experience = () => {
       <h2 className="expintro" data-aos="zoom-in">My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend" data-aos="zoom-in-up">           
+        <div className="experience__frontend" data-aos="zoom-in-up">
           <h3>Frontend Developement</h3>
           <div className="experience__content">
             {/*==================== Article 1 ====================*/}
@@ -226,7 +226,7 @@ const Experience = () => {
               {/* <SiPhp className="experience__details-icon" /> */}
               <img src= {Logo15} alt="html-logo" className="experience__details-icon"/>
               <div>
-               <h4>Netlify</h4>
+               <h4>Firebase</h4>
                {/* <small className="text-light">Beginner</small> */}
               </div>
             </article>
@@ -236,7 +236,7 @@ const Experience = () => {
               {/* <SiPhp className="experience__details-icon" /> */}
               <img src= {Logo16} alt="html-logo" className="experience__details-icon"/>
               <div>
-               <h4>Firebase</h4>
+               <h4>Netlify</h4>
                {/* <small className="text-light">Beginner</small> */}
               </div>
             </article>

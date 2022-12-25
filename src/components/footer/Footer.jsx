@@ -1,11 +1,11 @@
 import React from 'react'
 import './footer.css'
 import {AiOutlineFacebook} from 'react-icons/ai'
-import {FaFacebookF} from 'react-icons/fa'
+// import {FaFacebookF} from 'react-icons/fa'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {SiGmail} from 'react-icons/si'
+// import {SiGmail} from 'react-icons/si'
 // import {FaChevronUp} from 'react-icons/fa'
 import {FiArrowUp} from 'react-icons/fi'
 // import {MdOutlineArrowForwardIos} from 'react-icons/md'
@@ -25,7 +25,7 @@ const Footer = () => {
     <footer>
       <a href="#" className='footer__logo'  data-aos="fade-left"><span className="danger">RA</span><span className="white">H</span><span className="green">UL</span></a>
       <h4 className="state__name">Malda</h4>
-      <h5>WB 732101, India</h5>    
+      <h5>WB 732101, India</h5>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -60,7 +60,7 @@ const Footer = () => {
       <div className="footer__preloader">
         <a href="#" className="btn"><FiArrowUp /></a>
       </div>
-    </footer>  
+    </footer>
    )
-}      
+}
 export default Footer
