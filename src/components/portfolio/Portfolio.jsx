@@ -8,7 +8,7 @@ import './portfolio.css'
 // import IMG4 from '../../assets/portfolio4.jpg'
 // import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
-// import IMG7 from '../../assets/portfolio7.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 // import IMG8 from '../../assets/portfolio8.jpg'
 // import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
@@ -19,6 +19,8 @@ import IMG13 from '../../assets/portfolio14.jpg'
 import IMG15 from '../../assets/portfolio16.png'
 import IMG17 from '../../assets/portfolio17.png'
 import IMG18 from '../../assets/portfolio18.png'
+import IMG19 from '../../assets/portfolio19.png'
+import IMG20 from '../../assets/portfolio20.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,7 +35,7 @@ const data = [
     id: 1, //Unique_Key
     image: IMG11,
     title: 'Goswami Coaching Centre',
-    description: 'HTML, CSS, JS',
+    description: 'HTML, CSS, Js, AOS',
     demo: 'https://goswamicoachingcentre.netlify.app'
     // demo:
   },
@@ -42,7 +44,7 @@ const data = [
     id: 2,
     image: IMG15,
     title: 'HealthCare Website',
-    description: 'HTML, SASS, JS',
+    description: 'HTML, SASS, Js',
     demo: 'https://bingohealthcare.netlify.app'
     // demo:
   },
@@ -51,7 +53,7 @@ const data = [
     id: 3,
     image: IMG17,
     title: 'Xmas 2k22',
-    description: 'HTML, CSS, JS, ScrollReveal',
+    description: 'HTML, CSS, Js, ScrollReveal',
     demo: 'https://xmas22.netlify.app'
   },
 
@@ -78,6 +80,33 @@ const data = [
     image: IMG18,
     title: 'Metaverse Mania',
     description: 'Next.js, Tailwind',
+    demo: 'https://metaverse-mania.netlify.app',
+    // demo:
+  },
+
+    {
+    id: 7,
+    image: IMG19,
+    title: 'Little Lemon Restaurant',
+    description: 'HTML, CSS, Js, Jquery, AOS',
+    demo: 'https://lemonrestaurant.netlify.app',
+    // demo:
+  },
+
+  {
+    id: 8,
+    image: IMG7,
+    title: 'Ice-cream Shop Website',
+    description: 'HTML, CSS, JS, Django',
+    demo: 'https://github.com',
+    // demo:
+  },
+
+  {
+    id: 9,
+    image: IMG20,
+    title: 'Password Strength Checker',
+    description: 'HTML, CSS, JS',
     demo: 'https://metaverse-mania.netlify.app',
     // demo:
   }

@@ -9,7 +9,8 @@ import './header.css'
 // import bg_video1 from '../../assets/bg_video1.mp4'
 import binary_coder from '../../assets/binary_coder.mp4'
 // import technology from '../../assets/technology.mp4'
-import mycv from '../../assets/MyCV.pdf'
+// import mycv from '../../assets/MyCV.pdf'
+import mycv from '../../assets/Rahul Goswami ~ resume.pdf'
 
 import AOS from 'aos'
 // import Typical from 'react-typical'
@@ -28,7 +29,7 @@ const Header = () => {
     // <header>
     <div className="main">
         <div className="overlay"></div>
-         <video src={binary_coder} autoPlay loop muted /> 
+         <video src={binary_coder} autoPlay loop muted />
          {/* <div className="container header__container"></div> */}
         <div className="content">
           <div className="typo">
@@ -60,7 +61,7 @@ const Header = () => {
               <a href="#about">.</a>
             </div>
         </div>
-    </div>    
+    </div>
     // </header>
   )
 }
