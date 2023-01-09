@@ -8,7 +8,7 @@ import './portfolio.css'
 // import IMG4 from '../../assets/portfolio4.jpg'
 // import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
-import IMG7 from '../../assets/portfolio7.jpg'
+// import IMG7 from '../../assets/portfolio7.jpg'
 // import IMG8 from '../../assets/portfolio8.jpg'
 // import IMG9 from '../../assets/portfolio9.jpg'
 // import IMG10 from '../../assets/portfolio10.jpeg'
@@ -21,6 +21,8 @@ import IMG17 from '../../assets/portfolio17.png'
 import IMG18 from '../../assets/portfolio18.png'
 import IMG19 from '../../assets/portfolio19.png'
 import IMG20 from '../../assets/portfolio20.png'
+import IMG21 from '../../assets/portfolio21.png'
+// import IMG22 from '../../assets/portfolio22.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -95,10 +97,10 @@ const data = [
 
   {
     id: 8,
-    image: IMG7,
-    title: 'Ice-cream Shop Website',
-    description: 'HTML, CSS, JS, Django',
-    demo: 'https://github.com',
+    image: IMG21,
+    title: 'Glassmorphism Portfolio Website',
+    description: 'HTML, CSS, JS, Jquery',
+    demo: 'https://sumanshill.netlify.app',
     // demo:
   },
 
@@ -107,7 +109,7 @@ const data = [
     image: IMG20,
     title: 'Password Strength Checker',
     description: 'HTML, CSS, JS',
-    demo: 'https://metaverse-mania.netlify.app',
+    demo: 'https://easytranslate.netlify.app',
     // demo:
   }
 ]
