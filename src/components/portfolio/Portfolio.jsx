@@ -20,9 +20,10 @@ import IMG15 from '../../assets/portfolio16.png'
 import IMG17 from '../../assets/portfolio17.png'
 import IMG18 from '../../assets/portfolio18.png'
 import IMG19 from '../../assets/portfolio19.png'
-import IMG20 from '../../assets/portfolio20.png'
+// import IMG20 from '../../assets/portfolio20.png'
 import IMG21 from '../../assets/portfolio21.png'
 // import IMG22 from '../../assets/portfolio22.png'
+import IMG23 from '../../assets/portfolio23.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -53,18 +54,18 @@ const data = [
 
   {
     id: 3,
-    image: IMG17,
-    title: 'Xmas 2k22',
-    description: 'HTML, CSS, Js, ScrollReveal',
-    demo: 'https://xmas22.netlify.app'
+    image: IMG23,
+    title: 'Math Wizard',
+    description: 'HTML, CSS, Js, Jquery, Aos',
+    demo: 'https://mwizard.netlify.app',
   },
 
   {
     id: 4,
-    image: IMG13,
-    title: 'Responsive Admin Dashboard',
-    description: 'HTML, CSS, Chart.js',
-    demo: 'https://bingofinance.netlify.app',
+    image: IMG19,
+    title: 'Little Lemon Restaurant',
+    description: 'HTML, CSS, Js, Jquery, AOS',
+    demo: 'https://lemonrestaurant.netlify.app',
     // demo:
   },
 
@@ -88,10 +89,10 @@ const data = [
 
     {
     id: 7,
-    image: IMG19,
-    title: 'Little Lemon Restaurant',
-    description: 'HTML, CSS, Js, Jquery, AOS',
-    demo: 'https://lemonrestaurant.netlify.app',
+    image: IMG13,
+    title: 'Responsive Admin Dashboard',
+    description: 'Chart.js',
+    demo: 'https://bingofinance.netlify.app',
     // demo:
   },
 
@@ -106,10 +107,10 @@ const data = [
 
   {
     id: 9,
-    image: IMG20,
-    title: 'Password Strength Checker',
-    description: 'HTML, CSS, JS',
-    demo: 'https://easytranslate.netlify.app',
+    image: IMG17,
+    title: 'Xmas 2k22',
+    description: 'HTML, CSS, Js, ScrollReveal',
+    demo: 'https://xmas22.netlify.app',
     // demo:
   }
 ]
