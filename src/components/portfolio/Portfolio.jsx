@@ -24,6 +24,7 @@ import IMG19 from '../../assets/portfolio19.png'
 import IMG21 from '../../assets/portfolio21.png'
 // import IMG22 from '../../assets/portfolio22.png'
 import IMG23 from '../../assets/portfolio23.png'
+import IMG24 from '../../assets/portfolio24.png'
 import {BsEyeFill} from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -36,10 +37,10 @@ AOS.init({
 const data = [
   {
     id: 1, //Unique_Key
-    image: IMG11,
-    title: 'Goswami Coaching Centre',
-    description: 'HTML, CSS, Js, AOS',
-    demo: 'https://goswamicoachingcentre.netlify.app'
+    image: IMG24,
+    title: 'RSVP Concert Event Form',
+    description: 'HTML, CSS, Js, PHP, Mysql',
+    demo: 'https://rsvp.rf.gd/'
     // demo:
   },
 
